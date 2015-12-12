@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "nodemon lib/app.js"
+  },
+  "devDependencies": {
+    "chai": "~3.4.1",
+    "chai-http": "~1.0.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.14.1",
+    "express": "~4.13.3",
+    "shiny-express-formatter": "~0.1.2",
+    "shiny-express-errors": "~0.1.1"
+  }
+}
