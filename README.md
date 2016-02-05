@@ -3,17 +3,24 @@
 Project description
 
 ## Developing
-First, ensure package.json is using `nodemon` instead of `node` or `forever`
 
 ### Docker
+
+#### Using docker-compose
+* `docker-compose -f dev-compose.yml build`
+* `docker-compose -f dev-compose.yml up`
+
+Note: first time running with dev-compose.yml will require npm install from another shell attached to this container, e.g. `docker exec -it app_app_1 bash` `npm install`
+
+#### Using plain docker
+
 * `docker build -t ncd-backend ./`
 * `docker run --it -rm -v $(pwd):/var/www -p 3000:80 ncd-backend` #runs on host port 3000
 
-### Custom Node.js installation
-Run `npm install`, then `npm start` in the root of the repository
+### Custom local Node.js installation
+Run `npm start` in the root of the repository
 
 ## Deploying
-For production, ensure package.json is using `node` or `forever`
 
 ### Docker
 * `docker build -t project ./`

@@ -1,15 +1,26 @@
 {
   "scripts": {
-    "start": "nodemon lib/app.js"
+    "prestart": "npm install",
+    "start": "forever lib/www.js | bunyan",
+    "pretest": "npm install",
+    "test": "mocha",
+    "dev": "nodemon lib/www.js | bunyan",
+    "debug": "nodemon --debug lib/www.js | bunyan",
+    "node-inspector": "node-inspector"
   },
   "devDependencies": {
     "chai": "~3.4.1",
-    "chai-http": "~1.0.0"
+    "chai-http": "~1.0.0",
+    "mocha": "^2.4.5",
+    "node-inspector": "^0.12.5",
+    "nodemon": "^1.8.1"
   },
   "dependencies": {
     "body-parser": "~1.14.1",
+    "bunyan": "^1.5.1",
     "express": "~4.13.3",
-    "shiny-express-formatter": "~0.1.2",
-    "shiny-express-errors": "~0.1.1"
+    "forever": "^0.15.1",
+    "shiny-express-errors": "~0.4.2",
+    "shiny-express-formatter": "~0.3.2"
   }
 }

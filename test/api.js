@@ -6,7 +6,7 @@ var expect = chai.expect;
 var chaiHttp = require('chai-http');
 
 // Include local modules
-var app = require('../lib/app');
+var app = require('../lib/www');
 
 // Setup
 chai.config.includeStack = true;
