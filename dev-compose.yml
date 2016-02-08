@@ -9,6 +9,6 @@ app:
     - NODE_ENV=development
   volumes:
     - ./:/var/www
-    - /home/reese/npm/:/npm
+    - ../npm/:/npm
   command: sleep infinity
   #command: authbind --deep npm run dev
