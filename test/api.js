@@ -6,6 +6,9 @@ var expect = chai.expect;
 var chaiHttp = require('chai-http');
 
 // Include local modules
+var config = require('../config/config');
+// Suppress request/response logging output (before loading lib/www)
+config.logLevels.console = "fatal";
 var app = require('../lib/www');
 
 // Setup
