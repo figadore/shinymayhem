@@ -1,5 +1,5 @@
 build:
-  image: shinydocker/node:builder-1.0.2
+  image: shinydocker/node:builder-1.1.2
   commands:
     - env
     - pwd

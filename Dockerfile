@@ -1,2 +1,2 @@
-FROM shinydocker/node:onbuild-1.1.4
+FROM shinydocker/node:onbuild-1.1.7
 
