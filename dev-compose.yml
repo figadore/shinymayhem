@@ -11,4 +11,4 @@ app:
     - ./:/var/www
     - ../npm/:/npm
   #command: sleep infinity
-  command: authbind --deep npm run dev
+  command: npm run dev
