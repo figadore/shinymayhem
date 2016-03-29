@@ -14,7 +14,7 @@ var logger = bunyan.createLogger({
   }
 });
 
-// Also log to stdout at custom level
+// Log to stdout at custom level
 logger.addStream({
   stream: process.stdout,
   level: config.logLevels.console
