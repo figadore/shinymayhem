@@ -6,9 +6,9 @@ app:
     - 80:80
     - 8080:8080
   environment:
-    - NODE_ENV=development
+    NODE_ENV: development
   volumes:
     - ./:/var/www
     - ../npm/:/npm
-  command: sleep infinity
-  #command: authbind --deep npm run dev
+  #command: sleep infinity
+  command: authbind --deep npm run dev
