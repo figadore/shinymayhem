@@ -1,2 +1,2 @@
-#Shinymayhem website
-[shinymayhem.com](shinymayhem.com)
+# Shinymayhem website
+[shinymayhem.com](http://shinymayhem.com)
