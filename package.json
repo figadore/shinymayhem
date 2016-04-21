@@ -20,6 +20,7 @@
     "bunyan": "^1.5.1",
     "express": "~4.13.3",
     "forever": "^0.15.1",
+    "marked": "^0.3.5",
     "shiny-express-errors": "~1.1.1",
     "shiny-express-formatter": "~0.4.0"
   }
