@@ -1,3 +1,8 @@
+<div id="heading">
+  <name id="name">Reese Anson Wilson</name>
+  <hide-mail id="hidemail" prefix="rees" suffix="nsonwilson.com" title="Please don't add my email address to any lists"></hide-email>
+</div>
+
 ## About me##
 
 I&#39;m a self-motivated backend/devops-focused coder, trained as an engineer, with 8 years experience in the heavily regulated healthcare industry. I love staying up to date on the latest technologies, best practices and trends, especially in the areas of distributed architectures, automated everything, and scalability. I&#39;ve designed and developed multiple systems from the ground up.

@@ -1,3 +1,22 @@
+#heading {
+  color: #FFDD00;
+  text-align: center;
+  font-family:"Book Antiqua", Palatino, serif;
+}
+#name {
+  font-size: xx-large;
+}
+#hidemail {
+  font-size: x-large;
+  display: block;
+}
+hide-mail::after {
+  content: attr(suffix);
+}
+hide-mail::before {
+  content: attr(prefix) "e \0040";
+}
+
 body{
 
 
