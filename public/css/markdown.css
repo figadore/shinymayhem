@@ -22,6 +22,8 @@ body{
 
   margin: 0 auto;
   background-color:#191919;
+  background-image: url("/img/dark-metal-grid-8.jpg");
+  background-attachment: fixed;
 
   /*	--------- FONT FAMILY -------- following are some optional font families. Usually a family is safer to choose than a specific font, which may not be on the users computer		*/
   font-family:Georgia, Palatino, serif;
