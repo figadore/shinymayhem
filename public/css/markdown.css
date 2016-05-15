@@ -4,17 +4,12 @@
   font-family:"Book Antiqua", Palatino, serif;
 }
 #name {
+  cursor: pointer;
   font-size: xx-large;
 }
-#hidemail {
+#hideMail {
   font-size: x-large;
   display: block;
-}
-hide-mail::after {
-  content: attr(suffix);
-}
-hide-mail::before {
-  content: attr(prefix) "e \0040";
 }
 
 body{
@@ -22,7 +17,8 @@ body{
 
   margin: 0 auto;
   background-color:#191919;
-  background-image: url("/img/dark-metal-grid-8.jpg");
+  background-image: url("/img/gradient-metal-grid3.jpg");
+  background-repeat: repeat-x;
   background-attachment: fixed;
 
   /*	--------- FONT FAMILY -------- following are some optional font families. Usually a family is safer to choose than a specific font, which may not be on the users computer		*/
@@ -82,7 +78,7 @@ h2 {
 
 h3 {
   font-size:120%;
-  color: #FF9955;
+  color: #FF9933;
 }
 h4 {
   font-size:100%;
